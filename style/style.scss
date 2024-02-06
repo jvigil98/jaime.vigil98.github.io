@@ -11,12 +11,13 @@ $color-hover: #9dad42;
 header {
   nav {
     background-color: $color-nav;
+    width: 100%;
     ul {
       display: flex;
       list-style: none;
 
       li {
-        //flex: auto;
+        flex: auto;
         text-decoration: none;
         font-size: 20px;
         color: #fff;

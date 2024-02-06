@@ -7,6 +7,7 @@
 
 header nav {
   background-color: #0a3740;
+  width: 100%;
 }
 header nav ul {
   display: flex;
