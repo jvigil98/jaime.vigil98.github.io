@@ -50,7 +50,15 @@ nav .list a {
 }
 nav .list a:hover {
   border-bottom: 4px solid purple;
+
 }
+
+#toggle {
+  position: absolute;
+  top: -100px;
+}
+
+
 nav .icon-bar {
   display: none;
   position: absolute;
@@ -64,12 +72,7 @@ nav .icon-bar .line {
   background-color: white;
   margin: 5px;
   border-radius: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-#toggle {
-  position: absolute;
-  top: -100px;
+  transition: all .3s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -83,11 +86,13 @@ nav .icon-bar .line {
     position: fixed;
     z-index: 9;
     left: 0;
-    right: 0;
+    right: 0; 
     top: 100px;
     bottom: 100%;
     width: auto;
+    height: auto;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.8);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
